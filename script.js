@@ -27,12 +27,10 @@ class Employee extends Person {
 }
 
 // Example usage:
-const person = new Person('John Doe', 30);
-person.greet();  // Output: Hello, my name is John Doe, I am 30 years old.
-
-const employee = new Employee('Jane Smith', 28, 'Software Engineer');
-employee.jobGreet();  // Output: Hello, my name is Jane Smith, I am 28 years old, and my job title is Software Engineer.
-
+const person = new Person('Alice', 25);
+person.greet(); 
+const employee = new Employee('Bob', 30, 'Manager');
+employee.jobGreet(); 
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
